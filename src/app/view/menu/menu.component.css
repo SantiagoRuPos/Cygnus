@@ -1,0 +1,17 @@
+body {
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+  }
+  #Letras {
+    color: #d6ffff;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #Letras:hover {
+    background-color: #f2c230 !important;
+    color: #024873 !important ;
+    border-radius: 10px;
+  }
+ 

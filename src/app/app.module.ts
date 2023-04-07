@@ -12,6 +12,10 @@ import { Error404Component } from './emistakes/HTTP/error404/error404.component'
 import { Error501Component } from './emistakes/HTTP/error501/error501.component';
 import { FilterPipe } from './pipes/filter.pipe';
 
+
+
+import { FormsModule } from "@angular/forms";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +30,8 @@ import { FilterPipe } from './pipes/filter.pipe';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

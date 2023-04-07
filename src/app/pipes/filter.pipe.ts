@@ -5,8 +5,16 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class FilterPipe implements PipeTransform {
 
-  transform(value: unknown, ...args: unknown[]): unknown {
-    return null;
+  transform(value: any, args: any): any {
+  const resultPost=[];
+  for (const post of value){
+    if (post.nombre.indexOf(args)>-1) {
+      resultPost.push(post);
+    }else{
+    
+    }
+  }
+  return resultPost;
   }
 
 }
