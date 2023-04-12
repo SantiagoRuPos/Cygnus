@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-
+import Swal from 'sweetalert2';
 @Pipe({
   name: 'filter'
 })
@@ -11,7 +11,7 @@ export class FilterPipe implements PipeTransform {
     if (post.nombre.indexOf(args)>-1) {
       resultPost.push(post);
     }else{
-    
+ 
     }
   }
   return resultPost;

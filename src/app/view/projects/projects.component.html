@@ -4,14 +4,15 @@
   <div id="terjeta">
   <nav class="navbar bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand">Projectos Cygnus</a>
+        <a class="navbar-brand">Proyectos Cygnus</a>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Buscar " name="filterPost" aria-label="Search" [(ngModel)]="filterPost" >
           <button class="btn btn-outline-success" type="submit">Buscar </button>
         </form>
       </div>
     </nav>
-    <div class="card border-info mb-3" style="max-width: 18rem;" *ngFor="let Proyectos of Proyecto | filter:filterPost">
+
+    <div id="tarjeta" class="card border-info mb-3" style="max-width: 18rem;" *ngFor="let Proyectos of Proyecto | filter:filterPost">
       <div class="card-header">{{Proyectos.nombre}}</div>
       <div class="card-body">
         <h5 class="card-title">{{Proyectos.Descripcion}}</h5>

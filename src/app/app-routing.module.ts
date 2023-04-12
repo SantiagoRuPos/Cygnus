@@ -19,6 +19,7 @@ const routes: Routes = [
     { path: 'Ayuda', component: ServicioTecnicoComponent },
     { path: 'App', component: Error501Component },
     { path: '**', component: Error404Component },
+  
 
 ];
 
