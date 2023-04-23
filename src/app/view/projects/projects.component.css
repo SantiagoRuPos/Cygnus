@@ -1,4 +1,7 @@
-    
+   body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   } 
+
 #boton:hover{
     border-color: #f2c230;
     background-color: #f2c230 !important;

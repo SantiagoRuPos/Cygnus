@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-    background-color: azure;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    background-color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
