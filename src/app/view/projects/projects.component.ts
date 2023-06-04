@@ -21,6 +21,9 @@ Proyecto =[
   {"nombre":"Proyecto LR",
   "Descripcion":"Proyecto de laboratorio remoto de fisica",
    "Url":"http://cygnus.uniajc.edu.co/proyectolr/index.html"},
+   {"nombre":"Certamen Fisica",
+   "Descripcion":"Proyecto de certamen Fisica Julian Angel",
+    "Url":"http://cygnus.uniajc.edu.co/proyectolr/index.html"},
 ]
 ngOnInit(): void {
 this.Mensahe_Projectos();
