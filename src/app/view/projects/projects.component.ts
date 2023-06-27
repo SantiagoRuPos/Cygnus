@@ -23,12 +23,15 @@ Proyecto =[
    "Url":"http://cygnus.uniajc.edu.co/proyectolr/index.html"},
    {"nombre":"Certamen Fisica",
    "Descripcion":"Proyecto de certamen Fisica Julian Angel",
-    "Url":"http://cygnus.uniajc.edu.co/proyectolr/index.html"},
+    "Url":"http://cygnus.uniajc.edu.co/webjulian/index.html"},
+    {"nombre":"Proyecto PLCs IoT",
+    "Descripcion":"Poyecto PLCs IoT",
+     "Url":"http://cygnus.uniajc.edu.co/webWalter/index.html"},
 ]
 ngOnInit(): void {
-this.Mensahe_Projectos();
+this.Mensaje_Projectos();
 }
-Mensahe_Projectos(){
+Mensaje_Projectos(){
       
   const Toast = Swal.mixin({
     toast: true,
